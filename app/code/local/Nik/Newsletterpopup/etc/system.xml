@@ -8,7 +8,7 @@
 	</tabs>
 	<sections>
     <newsletterpopup translate="label" module="newsletterpopup">
-			<label>Newsletter Popup Pro</label>
+			<label>Manage Newsletter Discount</label>
 			<tab>nik</tab>
 			<frontend_type>text</frontend_type>
 			<sort_order>299</sort_order>
