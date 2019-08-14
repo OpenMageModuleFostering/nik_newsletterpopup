@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <newsletterpopup_adminhtml_newsletterpopup_index>
+        <update handle="editor"/>
+        <reference name="content">
+            <block type="newsletterpopup/adminhtml_newsletterpopup" name="newsletterpopup" />
+        </reference>
+    </newsletterpopup_adminhtml_newsletterpopup_index>
+    <newsletterpopup_adminhtml_newsletterpopup_edit>
+		<update handle="editor"/>
+    </newsletterpopup_adminhtml_newsletterpopup_edit>
+</layout>

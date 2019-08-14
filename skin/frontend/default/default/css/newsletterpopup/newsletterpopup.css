@@ -5,12 +5,12 @@
 #form-subscribe .form-content #notification{float:left; width:100%; margin:10px 0 0; text-align:left;}
 #form-subscribe .form-content #notification address{font-size:11px; font-style:italic; color:#8f8f8f;}
 #form-subscribe .form-content .input-box input.input-text{width:200px; height:25px;}
-#form-subscribe .form-content .input-box .validation-advice{width:auto;}
+#form-subscribe .form-content .input-box .validation-advice{width:192px; margin-left: -3px;}
 #form-subscribe .form-content .actions{float:right;}
 .boxm {
     padding-left: 23px;
     padding-top: 40px;
-    width: 301px;
+    width: 304px;
 }
 .fancybox-inner button.button {
     width: auto;
