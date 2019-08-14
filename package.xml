@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+    <name>Nik_Newsletterpopup</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/OSL-3.0">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Newsletter Popup allows you to see a newsletter subscription popup when customers visit your website.</summary>
+    <description>Newsletter Popup Pro extension is  help in achieving more subscribers for your newsletter system by a newsletter form popup on your store homepage. In other words, it is now easy for you to attract leading customers who are actually interested in your services and products.&#xD;
+&#xD;
+Allow customer to make subscription for your newsletter emails in the first landing at your store&#xD;
+Newsletter Popup is developed using jQuery compatible with Magento. After the installation has been successfully manipulated, it will display a popup automatically when customers visit your Magento home page. By this way, customers can subscribe email to Magento newsletter system via the popup form&#xD;
+&#xD;
+Hide the newsletter popup in the following cases&#xD;
+In the backend, you can configure the module to hide the popup after:&#xD;
+&#xD;
+Customers subscribe their email&#xD;
+Customers close the popup&#xD;
+You can avoid customer annoyance by turning on the &#x201C;disable after closing&#x201D; function. In details, this feature makes sure that customers will see the popup one time until cookie become expired.&#xD;
+&#xD;
+Allow a store owner to customize popup easily.&#xD;
+&#xD;
+Get more subscribers with coupon code&#xD;
+Allow store owner to create &amp; send coupon codes to subscribers in newsletter subscription emails. This configuration allows you to define parameters to create coupon code automatically.&#xD;
+&#xD;
+Additional configuration&#xD;
+Display the popup after X seconds: That means the popup is only shown after customer visit your homepage for X seconds&#xD;
+Allow to enable/disable jQuery to avoid conflict problems&#xD;
+Flexible content setup&#xD;
+Admin can select between 2 options: display newsletter form or content from a static block in the popup&#xD;
+Admin can enable the popup in all pages or only store homepage</description>
+    <notes>Release first version 0.1.0</notes>
+    <authors><author><name>Nikunj Vadariya</name><user>nikunjvadariya</user><email>nikunjpatel789@gmail.com</email></author></authors>
+    <date>2014-10-29</date>
+    <time>13:21:53</time>
+    <contents><target name="magelocal"><dir name="Nik"><dir><dir name="Newsletterpopup"><dir name="Block"><file name="Newsletterpopup.php" hash="b564288a8f408fabdeb364b2b6f75c48"/></dir><dir name="Helper"><file name="Data.php" hash="bc14b36db92f37fae867f427d1d099a6"/></dir><dir name="Model"><file name="Newsletterpopup.php" hash="dc6f22e84a226c25c3613600d42eb89d"/><file name="Observer.php" hash="b82854035dba6e8b5978448d3bd94d91"/><file name="Subscriber.php" hash="92b970c82e4f10fa1f5cea289eb19da4"/><dir name="System"><dir name="Config"><file name="Discounttype.php" hash="f5d5fde631fc507cac3b812e54c446d8"/></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="607c1a861bf062eb616e89483f9502b7"/><file name="SubscriberController.php" hash="a6f748ee700328c88c716ef3bc3bb657"/></dir><dir name="etc"><file name="adminhtml.xml" hash="ddd85dfcbcf5f44d15ce8bce40297f6a"/><file name="config.xml" hash="5701343e475fc517c5b0a282db711a04"/><file name="system.xml" hash="71db3fc196dc01cb9e9daebad0621adc"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Nik_Newsletterpopup.xml" hash="f82d820deb9c336e46764f5e7d63e435"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="newsletter_subscr_success_with_coupon.html" hash="2eaec5fa131d016305837308d8d8bb80"/></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="nik"><dir name="newsletterpopup"><file name="jquery.cookie.js" hash="125243e5339bfb528f2db77020c63c5b"/><file name="jquery.fancybox.js" hash="fc1d00fc2873d7bccaa25adfb86af652"/><file name="jquery.min.js" hash="b8d64d0bc142b3f670cc0611b0aebcae"/><file name="jquery.noconflict.js" hash="3179f2255b046d5f2e9a71e365287bef"/></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><dir name="newsletterpopup"><dir name="images"><file name="blank.gif" hash="325472601571f31e1bf00674c368d335"/><file name="close.png" hash="4cb00fb3da91905c22bdc290b3b620b2"/><file name="fancybox_loading.gif" hash="c6f1ad4957e50b83bb27691df8bc3f41"/><file name="fancybox_sprite.png" hash="61c66a5947e7bf772f7ec1c7985feec6"/></dir><file name="jquery.fancybox.css" hash="94ce9ef94b0f730d05fbc96ef1df6e83"/><file name="newsletterpopup.css" hash="453ff13444718bb38937f491cc1168bf"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="newsletterpopup"><file name="head.phtml" hash="efbbe3e325e2b83a3f5c51b61c3f0644"/><file name="newsletterpopup.phtml" hash="0811defd74734b3769f3867e2271fdc0"/></dir></dir><dir name="layout"><file name="newsletterpopup.xml" hash="6dce4be432d2a094d51eef72eb3d250c"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

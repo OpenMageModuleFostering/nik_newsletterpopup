@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Nik_Newsletterpopup",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Newsletter Popup allows you to see a newsletter subscription popup when customers visit your website.",
+    "authors": [
+    {
+        "name": "Nikunj Vadariya",
+        "email": "nikunjpatel789@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
