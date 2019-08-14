@@ -47,8 +47,8 @@ class Nik_Newsletterpopup_Model_Subscriber extends Mage_Newsletter_Model_Subscri
 			}	
 		}else {
 			$email->sendTransactional(
-                    Mage::getStoreConfig(self::XML_PATH_SUCCESS_EMAIL_IDENTITY),
                     Mage::getStoreConfig(self::XML_PATH_SUCCESS_EMAIL_TEMPLATE),
+                    Mage::getStoreConfig(self::XML_PATH_SUCCESS_EMAIL_IDENTITY),                    
 					$this->getEmail(),
 					$this->getName(),
 					array('subscriber'=>$this)

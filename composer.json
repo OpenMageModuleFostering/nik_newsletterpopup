@@ -1,12 +1,12 @@
 {
     "name": "OpenMageModuleFostering/Nik_Newsletterpopup",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "Newsletter subscription popup see when customers visit your site. And get Discount Coupon after subscription. ",
+    "description": "fix email issue",
     "authors": [
     {
-        "name": "nikunj vadariya",
+        "name": "Nikunj Vadariya",
         "email": "nikunjpatel789@gmail.com"
     }
 ],
