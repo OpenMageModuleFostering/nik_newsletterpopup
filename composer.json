@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Nik_Newsletterpopup",
+    "name": "OpenMageModuleFostering\/Nik_Newsletterpopup",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "fix email issue",
     "authors": [
-    {
-        "name": "Nikunj Vadariya",
-        "email": "nikunjpatel789@gmail.com"
-    }
-],
+        {
+            "name": "Nikunj Vadariya",
+            "email": "nikunjpatel789@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
