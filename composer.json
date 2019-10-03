@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Nik_Newsletterpopup",
+    "name": "openmage-module-fostering\/nik_newsletterpopup",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "fix email issue",
     "authors": [
